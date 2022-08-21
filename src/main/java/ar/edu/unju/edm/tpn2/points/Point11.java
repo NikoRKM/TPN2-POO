@@ -5,50 +5,63 @@ import java.util.Scanner;
 public class Point11 {
 
     public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		
-        System.out.println("Enter the number of the month: ");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingresar el numero del mes: ");
         int month = scanner.nextInt();
-		
-        switch(month){
 
-            case 1: System.out.println("January");
-            break;
+        switch (month) {
 
-            case 2: System.out.println("February");
-            break;
+            case 1:
+                System.out.println("Enero");
+                break;
 
-            case 3: System.out.println("March");
-            break;
+            case 2:
+                System.out.println("Febrero");
+                break;
 
-            case 4: System.out.println("April");
-            break;
+            case 3:
+                System.out.println("Marzo");
+                break;
 
-            case 5: System.out.println("May");
-            break;
+            case 4:
+                System.out.println("Abril");
+                break;
 
-            case 6: System.out.println("June");
-            break;
+            case 5:
+                System.out.println("Mayo");
+                break;
 
-            case 7: System.out.println("July");
-            break;
+            case 6:
+                System.out.println("Junio");
+                break;
 
-            case 8: System.out.println("August");
-            break;
+            case 7:
+                System.out.println("Julio");
+                break;
 
-            case 9: System.out.println("September");
-            break;
+            case 8:
+                System.out.println("Agosto");
+                break;
 
-            case 10: System.out.println("October");
-            break;
+            case 9:
+                System.out.println("Septiembre");
+                break;
 
-            case 11: System.out.println("November");
-            break;
+            case 10:
+                System.out.println("Octubre");
+                break;
 
-            case 12: System.out.println("December");
-            break;
+            case 11:
+                System.out.println("Noviembre");
+                break;
 
-            default: System.out.println("The month does not exist");
+            case 12:
+                System.out.println("Diciembre");
+                break;
+
+            default:
+                System.out.println("El mes no existe");
         }
-	}
+    }
 }
