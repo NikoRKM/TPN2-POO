@@ -61,7 +61,7 @@ public class Point11 {
                 break;
 
             default:
-                System.out.println("El mes no existe");
+                System.out.println("No existe ese mes");
         }
     }
 }
