@@ -37,5 +37,6 @@ public class Point12 {
         for (int i = 0; i < array.length; ++i) {
             System.out.println(" [" + i + "]: " + array[i]);
         }
+        scanner.close();
     }
 }

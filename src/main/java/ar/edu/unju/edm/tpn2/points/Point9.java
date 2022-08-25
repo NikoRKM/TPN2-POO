@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class Point9 {
 	
 	public static void main(String args[]) {
-	    
+		Scanner variable = new Scanner(System.in);
+        int numero ;
 		for(int contador = 0;contador<5;contador++) {
-	        Scanner variable = new Scanner(System.in);
-	        int numero ;
 	        System.out.println("Ingrese un numero:");
 	        numero = variable.nextInt();
 	
@@ -17,5 +16,6 @@ public class Point9 {
 	        else
 	            System.out.println("El numero es impar");
 	    	}
+		variable.close();
 	   }
 }

@@ -13,6 +13,7 @@ public class Point4 {
 		r = scanner.nextByte();
 		System.out.println("El valor del area es: " + ( Math.PI * Math.pow(r, 2) ));
 		
+		scanner.close();
 	}
 
 }

@@ -21,5 +21,6 @@ public class Point10 {
             else
                 System.out.println("Edad no permitida\n");
         }
+        scanner.close();
     }
 }

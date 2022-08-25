@@ -17,6 +17,7 @@ public class Point7 {
 			System.out.println("El año " + year + " no es bisiesto");
 		}
 		
+		scanner.close();
 	}
 
 }

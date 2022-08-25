@@ -63,5 +63,6 @@ public class Point11 {
             default:
                 System.out.println("No existe ese mes");
         }
+        scanner.close();
     }
 }

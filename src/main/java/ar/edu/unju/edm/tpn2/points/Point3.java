@@ -13,6 +13,7 @@ public class Point3 {
 		n = scanner.nextInt();
 		System.out.println("El resultado es: " + (int) Math.pow((n*(n+1)/2), 2));
 		
+		scanner.close();
 	}
 	
 }
